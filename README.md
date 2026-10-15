@@ -35,6 +35,6 @@ npm run check      # TypeScript
 
 ## Live site
 
-https://benjaminbigelow158.github.io/axiom/
+https://learningaxioms.github.io/
 
 Deploy a new version with `npm run deploy` (builds, then force-pushes `dist/` to the `gh-pages` branch).

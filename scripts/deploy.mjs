@@ -1,4 +1,4 @@
-// Publish dist/ to the gh-pages branch (GitHub Pages serves it at /axiom/).
+// Publish dist/ to the gh-pages branch (GitHub Pages serves it at https://learningaxioms.github.io/).
 import { execSync } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
 const run = (cmd) => execSync(cmd, { cwd: 'dist', stdio: 'inherit' })
